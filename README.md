@@ -16,6 +16,7 @@ The getInfo.py python script is modified to include the following additions or a
 **How to**
 To start using this, the following steps have to be taken:
 *Follow tutorial as mentioned
+
 *install dependencies for sensors in use
 *alter database to include correct columns (DHT22_temp,DHT22_hum, BME280_temp, BME280_hum, BME280_press, DS18B20_temp, currentDateTime)
 *alter database table to be named "WeatherData" (or change getInfo.py to use your preferred table name)
