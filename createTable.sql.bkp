@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS `WeatherData` (
+  `id` int(255) NOT NULL AUTO_INCREMENT,
+  `DHT22_temp` double NOT NULL,
+  `DHT22_hum` varchar(20) NOT NULL,
+  `currentDateTime` datetime NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
